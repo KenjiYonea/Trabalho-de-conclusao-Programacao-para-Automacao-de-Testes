@@ -1,0 +1,27 @@
+{
+  "name": "trabalho-de-conclusao-programacao-para-automacao-de-testes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KenjiYonea/Trabalho-de-conclusao-Programacao-para-Automacao-de-Testes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/KenjiYonea/Trabalho-de-conclusao-Programacao-para-Automacao-de-Testes/issues"
+  },
+  "homepage": "https://github.com/KenjiYonea/Trabalho-de-conclusao-Programacao-para-Automacao-de-Testes#readme",
+  "dependencies": {
+    "mocha": "^11.7.6"
+  }
+}
