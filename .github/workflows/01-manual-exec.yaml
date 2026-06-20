@@ -1,0 +1,40 @@
+# Disparo Manual através de clique
+
+name: CI - Serviço de Pagamento
+
+on:
+  push:
+
+  workflow_dispatch:
+
+  schedule:
+    - cron: '0 12 * * *'
+
+jobs:
+  e2e-tests:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout do código
+        uses: actions/checkout@v4
+
+      - name: Configurar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24.x
+
+      - name: Instalar dependências
+        run: npm install
+
+      - name: Executar testes
+        run: npm test
+
+      - name: Gerar relatório de testes
+        run: npm run test-report
+
+      - name: Salvar relatório
+        uses: actions/upload-artifact@v4
+        if: ${{ always() }}
+        with:
+          name: relatorio-testes
+          path: report.xml

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.002" tests="3" failures="0">
+  <testsuite name="Root Suite" timestamp="2026-06-20T05:02:41" tests="0" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Validar serviço de pagamento" timestamp="2026-06-20T05:02:41" tests="3" file="C:\Kenji\POS - Julio de Lima\Projetos VS Code\Trabalho-de-conclusao-Programacao-para-Automacao-de-Testes\test\ServicoDePagamento.test.js" time="0.001" failures="0">
+    <testcase name="Validar serviço de pagamento Validar que ao informar um valor maior que 100 a categoria deve ser caro" time="0.000" classname="Validar que ao informar um valor maior que 100 a categoria deve ser caro">
+    </testcase>
+    <testcase name="Validar serviço de pagamento Validar que ao informar um valor menor que 100 a categoria deve ser padrão" time="0.000" classname="Validar que ao informar um valor menor que 100 a categoria deve ser padrão">
+    </testcase>
+    <testcase name="Validar serviço de pagamento Validar que a função consultarUltimoPagamento sempre retorne o ultimo pagamento" time="0.000" classname="Validar que a função consultarUltimoPagamento sempre retorne o ultimo pagamento">
+    </testcase>
+  </testsuite>
+</testsuites>
