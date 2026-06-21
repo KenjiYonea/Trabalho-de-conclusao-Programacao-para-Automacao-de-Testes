@@ -36,3 +36,6 @@ Executar os testes:
 
 Gerar relatório de testes:
     - npm run test-report
+
+## Na pasta "evidências"
+    - Contém o print da execução da pepiline e o print do relatorio XML
